@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 420" fill="none">
+  <defs>
+    <linearGradient id="sb1" x1="0" y1="0" x2="440" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D2B1A"/>
+      <stop offset="100%" stop-color="#1A5A2A"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="420" fill="url(#sb1)" rx="16"/>
+  <!-- Mango cluster -->
+  <ellipse cx="300" cy="200" rx="80" ry="110" fill="#6AAF18" transform="rotate(-15 300 200)"/>
+  <ellipse cx="290" cy="190" rx="65" ry="95" fill="#88D030" transform="rotate(-15 290 190)"/>
+  <ellipse cx="360" cy="230" rx="70" ry="100" fill="#5A9A10" transform="rotate(20 360 230)"/>
+  <ellipse cx="350" cy="220" rx="55" ry="85" fill="#7ABE28" opacity="0.85" transform="rotate(20 350 220)"/>
+  <!-- Leaves -->
+  <path d="M295 95 Q320 70 345 82 Q325 98 295 95Z" fill="#3A7A08"/>
+  <path d="M315 88 Q345 62 368 76 Q348 92 315 88Z" fill="#4A8A12"/>
+  <!-- Text -->
+  <text x="35" y="145" font-size="13" fill="#A8E860" font-family="Arial">মিষ্টি-রসালো স্বাদে অনন্য</text>
+  <text x="35" y="195" font-size="32" font-weight="900" fill="white" font-family="Arial">বাগানের</text>
+  <text x="35" y="235" font-size="32" font-weight="900" fill="#B8F050" font-family="Arial">সেরা আমপালি</text>
+  <rect x="35" y="265" width="140" height="40" rx="20" fill="#5AAF20"/>
+  <text x="105" y="289" text-anchor="middle" font-size="13" font-weight="bold" fill="white" font-family="Arial">অর্ডার চলছে →</text>
+  <!-- Decorative -->
+  <circle cx="380" cy="380" r="60" fill="#5AAF20" opacity="0.08"/>
+</svg>

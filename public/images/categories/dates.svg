@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <circle cx="60" cy="60" r="58" fill="#FDF5E6" stroke="#C8860A" stroke-width="2"/>
+  <!-- Plate -->
+  <ellipse cx="60" cy="82" rx="36" ry="9" fill="#E8C87A" opacity="0.5"/>
+  <!-- Dates cluster -->
+  <ellipse cx="46" cy="72" rx="10" ry="14" fill="#8B4513" transform="rotate(-20 46 72)"/>
+  <ellipse cx="60" cy="68" rx="10" ry="15" fill="#A0522D"/>
+  <ellipse cx="74" cy="72" rx="10" ry="14" fill="#8B4513" transform="rotate(20 74 72)"/>
+  <ellipse cx="53" cy="62" rx="9" ry="13" fill="#7B3B0D" transform="rotate(-10 53 62)"/>
+  <ellipse cx="68" cy="62" rx="9" ry="13" fill="#6B2F08" transform="rotate(10 68 62)"/>
+  <!-- Highlights -->
+  <ellipse cx="57" cy="62" rx="3" ry="5" fill="white" opacity="0.18" transform="rotate(-5 57 62)"/>
+  <ellipse cx="72" cy="68" rx="2.5" ry="4" fill="white" opacity="0.15"/>
+  <!-- Seed lines -->
+  <line x1="60" y1="60" x2="60" y2="80" stroke="#5C2A00" stroke-width="1.5" opacity="0.4"/>
+  <line x1="46" y1="66" x2="46" y2="80" stroke="#5C2A00" stroke-width="1.2" opacity="0.4" transform="rotate(-20 46 73)"/>
+</svg>

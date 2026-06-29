@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <circle cx="60" cy="60" r="58" fill="#F0FAF4" stroke="#2D6A4F" stroke-width="2"/>
+  <!-- Leaf large -->
+  <path d="M60 88 Q30 70 35 40 Q50 25 75 35 Q90 50 60 88Z" fill="url(#leafGrad)"/>
+  <!-- Leaf vein -->
+  <path d="M60 88 Q55 65 58 40" stroke="#1A5C3A" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M57 65 Q48 58 40 55" stroke="#1A5C3A" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <path d="M58.5 55 Q50 47 43 43" stroke="#1A5C3A" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+  <path d="M59.5 72 Q68 65 74 62" stroke="#1A5C3A" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <!-- Small leaf -->
+  <path d="M72 82 Q62 72 68 56 Q76 52 80 64 Q82 72 72 82Z" fill="#5AAF7A" opacity="0.7"/>
+  <!-- Stem -->
+  <path d="M60 88 Q58 96 56 100" stroke="#2D6A4F" stroke-width="3" stroke-linecap="round"/>
+  <!-- Dew drop -->
+  <circle cx="52" cy="60" r="3" fill="white" opacity="0.5"/>
+  <defs>
+    <linearGradient id="leafGrad" x1="30" y1="25" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5AD87A"/>
+      <stop offset="100%" stop-color="#1D6A3A"/>
+    </linearGradient>
+  </defs>
+</svg>

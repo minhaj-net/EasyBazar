@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" fill="none">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="900" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1A3C28"/>
+      <stop offset="60%" stop-color="#2D6A4F"/>
+      <stop offset="100%" stop-color="#1A3C28"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="65%" cy="50%" r="50%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4A574" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="420" fill="url(#bg1)" rx="16"/>
+  <rect width="900" height="420" fill="url(#glow1)" rx="16"/>
+  <!-- Decorative circles -->
+  <circle cx="750" cy="80" r="120" fill="#D4A574" opacity="0.07"/>
+  <circle cx="800" cy="350" r="90" fill="#2D6A4F" opacity="0.15"/>
+  <circle cx="100" cy="380" r="80" fill="#D4A574" opacity="0.06"/>
+  <!-- Pattern dots -->
+  <circle cx="50" cy="50" r="3" fill="#D4A574" opacity="0.3"/>
+  <circle cx="100" cy="80" r="2" fill="#D4A574" opacity="0.2"/>
+  <circle cx="30" cy="120" r="2.5" fill="#D4A574" opacity="0.25"/>
+  <!-- Product box illustration -->
+  <rect x="520" y="100" width="140" height="170" rx="12" fill="#D4A574" opacity="0.9"/>
+  <rect x="530" y="110" width="120" height="150" rx="8" fill="#C49060"/>
+  <text x="590" y="175" text-anchor="middle" font-size="22" font-weight="bold" fill="white" font-family="Arial">Khajuri</text>
+  <text x="590" y="198" text-anchor="middle" font-size="12" fill="white" opacity="0.8" font-family="Arial">Premium Dates</text>
+  <rect x="540" y="210" width="100" height="30" rx="6" fill="#2D6A4F"/>
+  <text x="590" y="230" text-anchor="middle" font-size="11" fill="white" font-family="Arial">Order Now</text>
+  <!-- Second box -->
+  <rect x="680" y="130" width="110" height="140" rx="10" fill="#B07040" opacity="0.85"/>
+  <rect x="690" y="140" width="90" height="120" rx="6" fill="#9A6030"/>
+  <text x="735" y="205" text-anchor="middle" font-size="18" font-weight="bold" fill="white" font-family="Arial">Khajuri</text>
+  <text x="735" y="222" text-anchor="middle" font-size="10" fill="white" opacity="0.75" font-family="Arial">Medjool</text>
+  <!-- Left text content -->
+  <text x="80" y="155" font-size="16" fill="#D4A574" font-family="Arial" font-weight="bold">প্রতিদিনের পুষ্টি যোগাতে</text>
+  <text x="80" y="210" font-size="40" font-weight="900" fill="white" font-family="Arial">স্বাস্থ্যকর</text>
+  <text x="80" y="258" font-size="40" font-weight="900" fill="#D4A574" font-family="Arial">খেজুর</text>
+  <text x="80" y="300" font-size="14" fill="white" opacity="0.75" font-family="Arial">100% Natural • No Preservatives</text>
+  <!-- CTA button -->
+  <rect x="80" y="320" width="150" height="44" rx="22" fill="#D4A574"/>
+  <text x="155" y="347" text-anchor="middle" font-size="14" font-weight="bold" fill="white" font-family="Arial">Shop Now →</text>
+  <!-- Slider dots -->
+  <circle cx="80" cy="400" r="6" fill="#D4A574"/>
+  <circle cx="100" cy="400" r="5" fill="white" opacity="0.5"/>
+  <circle cx="118" cy="400" r="5" fill="white" opacity="0.5"/>
+  <circle cx="136" cy="400" r="5" fill="white" opacity="0.5"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <circle cx="60" cy="60" r="58" fill="#FEF9ED" stroke="#F0C97A" stroke-width="2"/>
+  <!-- Bottle body -->
+  <rect x="44" y="40" width="32" height="52" rx="8" fill="#E8A020"/>
+  <rect x="44" y="40" width="32" height="52" rx="8" fill="url(#bottleGrad)"/>
+  <!-- Neck -->
+  <rect x="51" y="28" width="18" height="16" rx="4" fill="#C88010"/>
+  <!-- Cap -->
+  <rect x="49" y="22" width="22" height="10" rx="3" fill="#D4A574"/>
+  <!-- Label -->
+  <rect x="48" y="52" width="24" height="26" rx="4" fill="white" opacity="0.85"/>
+  <text x="60" y="63" text-anchor="middle" font-size="7" font-weight="bold" fill="#C88010" font-family="Arial">OIL</text>
+  <text x="60" y="73" text-anchor="middle" font-size="6" fill="#8B6914" font-family="Arial">&amp; GHEE</text>
+  <!-- Shine -->
+  <ellipse cx="52" cy="48" rx="4" ry="7" fill="white" opacity="0.25" transform="rotate(-15 52 48)"/>
+  <defs>
+    <linearGradient id="bottleGrad" x1="44" y1="40" x2="76" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F5B830"/>
+      <stop offset="100%" stop-color="#C88010"/>
+    </linearGradient>
+  </defs>
+</svg>
