@@ -1,0 +1,23 @@
+[
+  {
+    "id": "b1",
+    "image": "/images/banners/banner-1.svg",
+    "alt": "Premium Dates — প্রতিদিনের পুষ্টি যোগাতে স্বাস্থ্যকর খেজুর",
+    "href": "/category/dates",
+    "badge": "New Arrival"
+  },
+  {
+    "id": "b2",
+    "image": "/images/banners/banner-2.svg",
+    "alt": "বাগানের সেরা আমপালি — Fresh Mango",
+    "href": "/category/organic",
+    "badge": "Season Special"
+  },
+  {
+    "id": "b3",
+    "image": "/images/banners/banner-3.svg",
+    "alt": "Pure Honey — Straight from the hive",
+    "href": "/category/honey",
+    "badge": "Best Seller"
+  }
+]

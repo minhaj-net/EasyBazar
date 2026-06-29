@@ -1,8 +1,33 @@
 @import "tailwindcss";
 
+/* ── Tailwind v4: enable class-based dark mode ── */
+@variant dark (&:where(.dark, .dark *));
+
+/* ═══════════════════════════════════════════════
+   Natural & Organic Color Palette
+   Primary:    #2D6A4F  — header bg, main buttons
+   Background: #F0FAF4  — section backgrounds
+   Accent:     #D4A574  — highlights, badges
+   Text:       #2C3E2D  — headings & body text
+   Base:       #FAFCF9  — page background
+   ═══════════════════════════════════════════════ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background:   #FAFCF9;
+  --foreground:   #2C3E2D;
+  --primary:      #2D6A4F;
+  --accent:       #D4A574;
+  --section-bg:   #F0FAF4;
+  --border:       #d4e8d8;
+  --muted:        #5a7a5e;
+}
+
+.dark {
+  --background:   #0d1f12;
+  --foreground:   #e8f5e9;
+  --section-bg:   #132a18;
+  --border:       #1e3d22;
+  --muted:        #7aab80;
 }
 
 @theme inline {
@@ -12,15 +37,30 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+header, footer, nav, main, aside, section, div {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+
+/* ── Scrollbar hide ── */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*:focus-visible {
+  outline-offset: 2px;
 }

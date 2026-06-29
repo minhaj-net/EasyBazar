@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <circle cx="60" cy="60" r="58" fill="#FFFBF0" stroke="#F5C518" stroke-width="2"/>
+  <!-- Jar body -->
+  <path d="M32 55 Q30 88 60 92 Q90 88 88 55 Z" fill="#F5C518"/>
+  <path d="M32 55 Q30 88 60 92 Q90 88 88 55 Z" fill="url(#honeyGrad)"/>
+  <!-- Jar top ring -->
+  <ellipse cx="60" cy="55" rx="28" ry="8" fill="#E8A800"/>
+  <!-- Lid -->
+  <rect x="38" y="38" width="44" height="20" rx="6" fill="#8B6914"/>
+  <ellipse cx="60" cy="38" rx="22" ry="5" fill="#A07820"/>
+  <!-- Honeycomb pattern -->
+  <text x="60" y="75" text-anchor="middle" font-size="20" fill="#C88000" font-family="Arial">🍯</text>
+  <!-- Drip -->
+  <path d="M72 45 Q74 52 71 55" stroke="#F5C518" stroke-width="3" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="honeyGrad" x1="32" y1="55" x2="88" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#C88010"/>
+    </linearGradient>
+  </defs>
+</svg>

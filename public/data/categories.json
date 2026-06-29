@@ -1,0 +1,10 @@
+[
+  { "id": "oil-ghee",   "label": "Oil & Ghee",   "image": "/images/categories/oil-ghee.svg",   "href": "/category/oil-ghee",   "productCount": 48 },
+  { "id": "organic",    "label": "Organic",       "image": "/images/categories/organic.svg",    "href": "/category/organic",    "productCount": 62 },
+  { "id": "honey",      "label": "Honey",         "image": "/images/categories/honey.svg",      "href": "/category/honey",      "productCount": 35 },
+  { "id": "dates",      "label": "Dates",         "image": "/images/categories/dates.svg",      "href": "/category/dates",      "productCount": 27 },
+  { "id": "spices",     "label": "Spices",        "image": "/images/categories/spices.svg",     "href": "/category/spices",     "productCount": 93 },
+  { "id": "nuts",       "label": "Nuts & Seeds",  "image": "/images/categories/nuts.svg",       "href": "/category/nuts",       "productCount": 54 },
+  { "id": "beverages",  "label": "Beverage",      "image": "/images/categories/beverages.svg",  "href": "/category/beverages",  "productCount": 41 },
+  { "id": "rice",       "label": "Rice",          "image": "/images/categories/rice.svg",       "href": "/category/rice",       "productCount": 29 }
+]

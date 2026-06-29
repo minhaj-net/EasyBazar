@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <circle cx="60" cy="60" r="58" fill="#FDF6EC" stroke="#C8922A" stroke-width="2"/>
+  <!-- Cashew -->
+  <path d="M38 50 Q32 42 42 36 Q54 30 58 42 Q62 54 50 58 Q40 60 38 50Z" fill="#D4A574"/>
+  <path d="M38 50 Q32 42 42 36 Q54 30 58 42 Q62 54 50 58 Q40 60 38 50Z" fill="url(#nutGrad1)"/>
+  <!-- Almond -->
+  <ellipse cx="74" cy="45" rx="10" ry="15" fill="#C8922A" transform="rotate(20 74 45)"/>
+  <ellipse cx="74" cy="45" rx="6" ry="11" fill="#E0A840" transform="rotate(20 74 45)"/>
+  <!-- Walnut -->
+  <circle cx="55" cy="76" r="14" fill="#8B5A2B"/>
+  <path d="M46 72 Q55 68 64 72 Q55 80 46 72Z" fill="#6B3A1B" opacity="0.5"/>
+  <path d="M55 66 Q59 76 55 86 Q51 76 55 66Z" fill="#6B3A1B" opacity="0.5"/>
+  <!-- Pistachio -->
+  <ellipse cx="80" cy="74" rx="8" ry="11" fill="#8B9E5A" transform="rotate(15 80 74)"/>
+  <ellipse cx="80" cy="74" rx="4" ry="6" fill="#A8B870" transform="rotate(15 80 74)"/>
+  <line x1="80" y1="63" x2="80" y2="85" stroke="#6B7E3A" stroke-width="1.5" transform="rotate(15 80 74)"/>
+  <defs>
+    <linearGradient id="nutGrad1" x1="32" y1="36" x2="62" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E8C08A"/>
+      <stop offset="100%" stop-color="#B87830"/>
+    </linearGradient>
+  </defs>
+</svg>
